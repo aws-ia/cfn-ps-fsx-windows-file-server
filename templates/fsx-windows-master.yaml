@@ -352,7 +352,7 @@ Parameters:
     ConstraintDescription: Quick Start bucket name can include numbers, lowercase
       letters, uppercase letters, and hyphens (-). It cannot start or end with a hyphen
       (-).
-    Default: aws-ia-us-east-1
+    Default: aws-ia
     Description: Specify the S3 bucket name for the Quick Start assets. Quick Start bucket name
       can include numbers, lowercase letters, uppercase letters, and hyphens (-).
       It cannot start or end with a hyphen (-).
@@ -396,7 +396,7 @@ Conditions:
   GovCloudCondition: !Equals
     - !Ref 'AWS::Region'
     - us-gov-west-1
-  UsingDefaultBucket: !Equals [!Ref QSS3BucketName, 'aws-ia-us-east-1']
+  UsingDefaultBucket: !Equals [!Ref QSS3BucketName, 'aws-ia']
   CreateRDGW: !Equals [!Ref DeployRDGW, 'Yes']
 Resources:
   VPCStack:
