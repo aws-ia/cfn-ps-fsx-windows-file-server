@@ -1,4 +1,9 @@
 # quickstart-microsoft-fsx
+## Deprecation Notice
+
+:x: This repository is subject to deprecation in Q4 2024. For more details, [please review this announcement](https://github.com/aws-ia/.announcements/issues/1). 
+
+
 ## Amazon FSx for Windows File Server
 
 This Quick Start implements Amazon FSx for Windows File Server on the Amazon Web Services (AWS) Cloud in about 1.5 hours. This Quick Start is for IT infrastructure architects, administrators, and DevOps professionals who are planning to implement Microsoft Windows file systems on AWS.
